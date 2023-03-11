@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB19A45629A6027C0033F969 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45529A6027C0033F969 /* DataFile.swift */; };
+		FB19A45829A672C10033F969 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45729A672C10033F969 /* Model.swift */; };
+		FB19A45A29A677750033F969 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = FB19A45929A677750033F969 /* config.json */; };
+		FB19A45C29A7003F0033F969 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45B29A7003F0033F969 /* ViewModel.swift */; };
+		FB19A46029ACE0710033F969 /* config的副本.json in Resources */ = {isa = PBXBuildFile; fileRef = FB19A45F29ACE0710033F969 /* config的副本.json */; };
+		FB2872D029ACFEA200461297 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2872CF29ACFEA200461297 /* DialogView.swift */; };
+		FB2872DA29AF50F400461297 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2872D929AF50F400461297 /* TestView.swift */; };
+		FBE1F22429B0723D00229FCE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1F22329B0723D00229FCE /* DetailView.swift */; };
+		FBEF051A2990E24B007B0BDF /* GaoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */; };
+		FBEF051C2990E24B007B0BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF051B2990E24B007B0BDF /* ContentView.swift */; };
+		FBEF051E2990E24D007B0BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF051D2990E24D007B0BDF /* Assets.xcassets */; };
+		FBEF05212990E24D007B0BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF05202990E24D007B0BDF /* Preview Assets.xcassets */; };
+		FBEF052C2990E4B7007B0BDF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF052A2990E4B7007B0BDF /* MapView.swift */; };
+		FBEF052D2990E4B7007B0BDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF052B2990E4B7007B0BDF /* MapViewController.swift */; };
+		FDEA601E85DFA3BC8EF5FD1B /* Pods_GaoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC6EBA933DED7104BBC0F88 /* Pods_GaoDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E80EFC3DAF488F039360B13 /* Pods-GaoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDemo.debug.xcconfig"; path = "Target Support Files/Pods-GaoDemo/Pods-GaoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFF8005566DD2C5DCD2B040 /* Pods-GaoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDemo.release.xcconfig"; path = "Target Support Files/Pods-GaoDemo/Pods-GaoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ECC6EBA933DED7104BBC0F88 /* Pods_GaoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB19A45529A6027C0033F969 /* DataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		FB19A45729A672C10033F969 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FB19A45929A677750033F969 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		FB19A45B29A7003F0033F969 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FB19A45F29ACE0710033F969 /* config的副本.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "config的副本.json"; sourceTree = "<group>"; };
+		FB2872CF29ACFEA200461297 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		FB2872D929AF50F400461297 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		FB39C24F29B8330400CAABA9 /* ToDoList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDoList.md; sourceTree = "<group>"; };
+		FBE1F22329B0723D00229FCE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FBEF05162990E24B007B0BDF /* GaoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaoDemoApp.swift; sourceTree = "<group>"; };
+		FBEF051B2990E24B007B0BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBEF051D2990E24D007B0BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEF05202990E24D007B0BDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBEF05272990E45E007B0BDF /* GaoDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GaoDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBEF05282990E46E007B0BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBEF052A2990E4B7007B0BDF /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FBEF052B2990E4B7007B0BDF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEF05132990E24B007B0BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEA601E85DFA3BC8EF5FD1B /* Pods_GaoDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE69BB794585934EE8A0DC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E80EFC3DAF488F039360B13 /* Pods-GaoDemo.debug.xcconfig */,
+				CAFF8005566DD2C5DCD2B040 /* Pods-GaoDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3CEF81B17204F51587000BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6EBA933DED7104BBC0F88 /* Pods_GaoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEF050D2990E24B007B0BDF = {
+			isa = PBXGroup;
+			children = (
+				FB39C24F29B8330400CAABA9 /* ToDoList.md */,
+				FBEF05182990E24B007B0BDF /* GaoDemo */,
+				FBEF05172990E24B007B0BDF /* Products */,
+				DBE69BB794585934EE8A0DC9 /* Pods */,
+				E3CEF81B17204F51587000BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEF05172990E24B007B0BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF05162990E24B007B0BDF /* GaoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEF05182990E24B007B0BDF /* GaoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF05292990E4AC007B0BDF /* component */,
+				FBEF05282990E46E007B0BDF /* Info.plist */,
+				FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */,
+				FBEF051B2990E24B007B0BDF /* ContentView.swift */,
+				FB2872CF29ACFEA200461297 /* DialogView.swift */,
+				FBE1F22329B0723D00229FCE /* DetailView.swift */,
+				FBEF05272990E45E007B0BDF /* GaoDemo-Bridging-Header.h */,
+				FBEF051D2990E24D007B0BDF /* Assets.xcassets */,
+				FB19A45529A6027C0033F969 /* DataFile.swift */,
+				FB19A45729A672C10033F969 /* Model.swift */,
+				FB19A45929A677750033F969 /* config.json */,
+				FB19A45F29ACE0710033F969 /* config的副本.json */,
+				FB19A45B29A7003F0033F969 /* ViewModel.swift */,
+				FBEF051F2990E24D007B0BDF /* Preview Content */,
+				FB2872D929AF50F400461297 /* TestView.swift */,
+			);
+			path = GaoDemo;
+			sourceTree = "<group>";
+		};
+		FBEF051F2990E24D007B0BDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF05202990E24D007B0BDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBEF05292990E4AC007B0BDF /* component */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF052A2990E4B7007B0BDF /* MapView.swift */,
+				FBEF052B2990E4B7007B0BDF /* MapViewController.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEF05152990E24B007B0BDF /* GaoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEF05242990E24D007B0BDF /* Build configuration list for PBXNativeTarget "GaoDemo" */;
+			buildPhases = (
+				2E78A9FF7867909A374B0299 /* [CP] Check Pods Manifest.lock */,
+				FBEF05122990E24B007B0BDF /* Sources */,
+				FBEF05132990E24B007B0BDF /* Frameworks */,
+				FBEF05142990E24B007B0BDF /* Resources */,
+				294D404768C09893B60A604D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDemo;
+			productName = GaoDemo;
+			productReference = FBEF05162990E24B007B0BDF /* GaoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEF050E2990E24B007B0BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FBEF05152990E24B007B0BDF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FBEF05112990E24B007B0BDF /* Build configuration list for PBXProject "GaoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEF050D2990E24B007B0BDF;
+			productRefGroup = FBEF05172990E24B007B0BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEF05152990E24B007B0BDF /* GaoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEF05142990E24B007B0BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF05212990E24D007B0BDF /* Preview Assets.xcassets in Resources */,
+				FBEF051E2990E24D007B0BDF /* Assets.xcassets in Resources */,
+				FB19A45A29A677750033F969 /* config.json in Resources */,
+				FB19A46029ACE0710033F969 /* config的副本.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		294D404768C09893B60A604D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GaoDemo/Pods-GaoDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GaoDemo/Pods-GaoDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GaoDemo/Pods-GaoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E78A9FF7867909A374B0299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEF05122990E24B007B0BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF051C2990E24B007B0BDF /* ContentView.swift in Sources */,
+				FBEF052C2990E4B7007B0BDF /* MapView.swift in Sources */,
+				FBEF051A2990E24B007B0BDF /* GaoDemoApp.swift in Sources */,
+				FBE1F22429B0723D00229FCE /* DetailView.swift in Sources */,
+				FB19A45829A672C10033F969 /* Model.swift in Sources */,
+				FBEF052D2990E4B7007B0BDF /* MapViewController.swift in Sources */,
+				FB19A45629A6027C0033F969 /* DataFile.swift in Sources */,
+				FB2872DA29AF50F400461297 /* TestView.swift in Sources */,
+				FB2872D029ACFEA200461297 /* DialogView.swift in Sources */,
+				FB19A45C29A7003F0033F969 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBEF05222990E24D007B0BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBEF05232990E24D007B0BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEF05252990E24D007B0BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E80EFC3DAF488F039360B13 /* Pods-GaoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GaoDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GaoDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "高德地图Demo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "位置访问";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用应用期间允许访问位置信息";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shgbit.GaoDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengjingkun/DJKDemo/swiftui/GaoDemo/GaoDemo/GaoDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEF05262990E24D007B0BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFF8005566DD2C5DCD2B040 /* Pods-GaoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GaoDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GaoDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "高德地图Demo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "位置访问";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用应用期间允许访问位置信息";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shgbit.GaoDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengjingkun/DJKDemo/swiftui/GaoDemo/GaoDemo/GaoDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEF05112990E24B007B0BDF /* Build configuration list for PBXProject "GaoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEF05222990E24D007B0BDF /* Debug */,
+				FBEF05232990E24D007B0BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEF05242990E24D007B0BDF /* Build configuration list for PBXNativeTarget "GaoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEF05252990E24D007B0BDF /* Debug */,
+				FBEF05262990E24D007B0BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEF050E2990E24B007B0BDF /* Project object */;
+}
