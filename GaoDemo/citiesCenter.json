@@ -1,0 +1,274 @@
+[
+    {
+        "mcdonalds" : 47,
+        "hilton" : 5,
+        "latitude" : 39.904029999999999,
+        "longitude" : 116.407526,
+        "city" : "北京市",
+        "starbucks" : 64
+    },
+    {
+        "mcdonalds" : 26,
+        "hilton" : 3,
+        "latitude" : 31.230416000000002,
+        "longitude" : 121.47370100000001,
+        "city" : "上海市",
+        "starbucks" : 82
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 0,
+        "latitude" : 22.276284,
+        "longitude" : 114.163825,
+        "city" : "香港",
+        "starbucks" : 0
+    },
+    {
+        "mcdonalds" : 33,
+        "hilton" : 1,
+        "latitude" : 39.084158000000002,
+        "longitude" : 117.20098299999999,
+        "city" : "天津市",
+        "starbucks" : 49
+    },
+    {
+        "mcdonalds" : 16,
+        "hilton" : 2,
+        "latitude" : 29.563009000000001,
+        "longitude" : 106.55155600000001,
+        "city" : "重庆市",
+        "starbucks" : 35
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 0,
+        "latitude" : 22.186834999999999,
+        "longitude" : 113.54302800000001,
+        "city" : "澳门",
+        "starbucks" : 0
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 1,
+        "latitude" : 38.037056999999997,
+        "longitude" : 114.468664,
+        "city" : "河北省",
+        "starbucks" : 7
+    },
+    {
+        "mcdonalds" : 23,
+        "hilton" : 2,
+        "latitude" : 41.835441000000003,
+        "longitude" : 123.42944,
+        "city" : "辽宁省",
+        "starbucks" : 21
+    },
+    {
+        "mcdonalds" : 11,
+        "hilton" : 0,
+        "latitude" : 45.742347000000002,
+        "longitude" : 126.661669,
+        "city" : "黑龙江省",
+        "starbucks" : 4
+    },
+    {
+        "mcdonalds" : 19,
+        "hilton" : 1,
+        "latitude" : 31.861184000000002,
+        "longitude" : 117.28492199999999,
+        "city" : "安徽省",
+        "starbucks" : 18
+    },
+    {
+        "mcdonalds" : 9,
+        "hilton" : 0,
+        "latitude" : 43.896535999999998,
+        "longitude" : 125.32599,
+        "city" : "吉林省",
+        "starbucks" : 11
+    },
+    {
+        "mcdonalds" : 35,
+        "hilton" : 3,
+        "latitude" : 32.061706999999998,
+        "longitude" : 118.763232,
+        "city" : "江苏省",
+        "starbucks" : 53
+    },
+    {
+        "mcdonalds" : 16,
+        "hilton" : 0,
+        "latitude" : 37.873531,
+        "longitude" : 112.562398,
+        "city" : "山西省",
+        "starbucks" : 7
+    },
+    {
+        "mcdonalds" : 11,
+        "hilton" : 0,
+        "latitude" : 40.817498000000001,
+        "longitude" : 111.76561700000001,
+        "city" : "内蒙古自治区",
+        "starbucks" : 5
+    },
+    {
+        "mcdonalds" : 34,
+        "hilton" : 3,
+        "latitude" : 30.267446,
+        "longitude" : 120.15279099999999,
+        "city" : "浙江省",
+        "starbucks" : 53
+    },
+    {
+        "mcdonalds" : 7,
+        "hilton" : 1,
+        "latitude" : 36.668529999999997,
+        "longitude" : 117.020359,
+        "city" : "山东省",
+        "starbucks" : 21
+    },
+    {
+        "mcdonalds" : 65,
+        "hilton" : 1,
+        "latitude" : 26.100778999999999,
+        "longitude" : 119.29514399999999,
+        "city" : "福建省",
+        "starbucks" : 27
+    },
+    {
+        "mcdonalds" : 11,
+        "hilton" : 0,
+        "latitude" : 28.675695999999999,
+        "longitude" : 115.909228,
+        "city" : "江西省",
+        "starbucks" : 15
+    },
+    {
+        "mcdonalds" : 32,
+        "hilton" : 2,
+        "latitude" : 30.546498,
+        "longitude" : 114.34186099999999,
+        "city" : "湖北省",
+        "starbucks" : 46
+    },
+    {
+        "mcdonalds" : 29,
+        "hilton" : 0,
+        "latitude" : 28.112444,
+        "longitude" : 112.98381000000001,
+        "city" : "湖南省",
+        "starbucks" : 27
+    },
+    {
+        "mcdonalds" : 24,
+        "hilton" : 1,
+        "latitude" : 34.765515000000001,
+        "longitude" : 113.753602,
+        "city" : "河南省",
+        "starbucks" : 21
+    },
+    {
+        "mcdonalds" : 10,
+        "hilton" : 4,
+        "latitude" : 20.017377,
+        "longitude" : 110.349228,
+        "city" : "海南省",
+        "starbucks" : 8
+    },
+    {
+        "mcdonalds" : 17,
+        "hilton" : 0,
+        "latitude" : 22.815477999999999,
+        "longitude" : 108.327546,
+        "city" : "广西壮族自治区",
+        "starbucks" : 16
+    },
+    {
+        "mcdonalds" : 43,
+        "hilton" : 8,
+        "latitude" : 23.132190999999999,
+        "longitude" : 113.26653,
+        "city" : "广东省",
+        "starbucks" : 53
+    },
+    {
+        "mcdonalds" : 11,
+        "hilton" : 0,
+        "latitude" : 26.598193999999999,
+        "longitude" : 106.70741,
+        "city" : "贵州省",
+        "starbucks" : 9
+    },
+    {
+        "mcdonalds" : 21,
+        "hilton" : 0,
+        "latitude" : 30.651651000000001,
+        "longitude" : 104.075931,
+        "city" : "四川省",
+        "starbucks" : 50
+    },
+    {
+        "mcdonalds" : 13,
+        "hilton" : 0,
+        "latitude" : 25.045805999999999,
+        "longitude" : 102.710002,
+        "city" : "云南省",
+        "starbucks" : 12
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 1,
+        "latitude" : 29.646922,
+        "longitude" : 91.117211999999995,
+        "city" : "西藏自治区",
+        "starbucks" : 0
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 0,
+        "latitude" : 43.793025999999998,
+        "longitude" : 87.627703999999994,
+        "city" : "新疆维吾尔自治区",
+        "starbucks" : 0
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 0,
+        "latitude" : 36.620901000000003,
+        "longitude" : 101.780199,
+        "city" : "青海省",
+        "starbucks" : 3
+    },
+    {
+        "mcdonalds" : 23,
+        "hilton" : 2,
+        "latitude" : 34.265472000000003,
+        "longitude" : 108.954239,
+        "city" : "陕西省",
+        "starbucks" : 47
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 0,
+        "latitude" : 38.471316999999999,
+        "longitude" : 106.258754,
+        "city" : "宁夏回族自治区",
+        "starbucks" : 2
+    },
+    {
+        "mcdonalds" : 6,
+        "hilton" : 0,
+        "latitude" : 36.059421,
+        "longitude" : 103.826308,
+        "city" : "甘肃省",
+        "starbucks" : 6
+    },
+    {
+        "mcdonalds" : 0,
+        "hilton" : 1,
+        "latitude" : 25.044319000000002,
+        "longitude" : 121.508903,
+        "city" : "台湾省",
+        "starbucks" : 0
+    }
+]
