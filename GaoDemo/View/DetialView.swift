@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct DetailView: View {
+struct DetialView: View {
     @ObservedObject var vm: GaoViewModel
     @Binding var showDilog: Bool
     
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 2) {
-                Text(vm.selectedNamePoi?.name ?? "酒店")
+                Text(vm.selectedNamePoi?.name ?? "")
                     .bold()
                     .font(.system(size: 14))
                 
@@ -29,13 +29,13 @@ struct DetailView: View {
                 
                 HStack (spacing: 0){
                     Text("评分: ")
-                    Text(vm.selectedNamePoi?.rating?.description ?? "5.0")
+                    Text(vm.selectedNamePoi?.rating?.description ?? "0.0")
                     Text(" 非常棒")
                 }
                 .foregroundColor(.blue)
                 .font(.caption)
                 
-                Text(vm.selectedNamePoi?.type ?? "酒店")
+                Text(vm.selectedNamePoi?.type ?? "")
                     .font(.caption)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
@@ -73,7 +73,7 @@ struct DetailView: View {
                     Button(action: {
                         
                     }) {
-                        Text("导航至酒店")
+                        Text("导航")
                             .foregroundColor(.white)
                             .padding()
                             .frame(width: 200, height: 40)
@@ -92,7 +92,7 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(vm: GaoViewModel(), showDilog: .constant(true))
+        DetialView(vm: GaoViewModel(), showDilog: .constant(true))
             .previewLayout(.sizeThatFits)
     }
 }

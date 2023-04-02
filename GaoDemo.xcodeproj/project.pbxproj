@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0F32CB29CD7C4400376C33 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0F32CA29CD7C4400376C33 /* MapViewController.swift */; };
+		FB0F32CD29CD9F1100376C33 /* allCities.json in Resources */ = {isa = PBXBuildFile; fileRef = FB0F32CC29CD9F1100376C33 /* allCities.json */; };
+		FB0F32D629D552F000376C33 /* pois.json in Resources */ = {isa = PBXBuildFile; fileRef = FB0F32D529D552F000376C33 /* pois.json */; };
 		FB19A45629A6027C0033F969 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45529A6027C0033F969 /* DataFile.swift */; };
 		FB19A45829A672C10033F969 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45729A672C10033F969 /* Model.swift */; };
-		FB19A45A29A677750033F969 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = FB19A45929A677750033F969 /* config.json */; };
+		FB19A45A29A677750033F969 /* citiesCenter.json in Resources */ = {isa = PBXBuildFile; fileRef = FB19A45929A677750033F969 /* citiesCenter.json */; };
 		FB19A45C29A7003F0033F969 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A45B29A7003F0033F969 /* ViewModel.swift */; };
-		FB19A46029ACE0710033F969 /* config的副本.json in Resources */ = {isa = PBXBuildFile; fileRef = FB19A45F29ACE0710033F969 /* config的副本.json */; };
 		FB2872D029ACFEA200461297 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2872CF29ACFEA200461297 /* DialogView.swift */; };
-		FB2872DA29AF50F400461297 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2872D929AF50F400461297 /* TestView.swift */; };
-		FBE1F22429B0723D00229FCE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1F22329B0723D00229FCE /* DetailView.swift */; };
+		FBE1F22429B0723D00229FCE /* DetialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1F22329B0723D00229FCE /* DetialView.swift */; };
 		FBEF051A2990E24B007B0BDF /* GaoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */; };
 		FBEF051C2990E24B007B0BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF051B2990E24B007B0BDF /* ContentView.swift */; };
 		FBEF051E2990E24D007B0BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF051D2990E24D007B0BDF /* Assets.xcassets */; };
 		FBEF05212990E24D007B0BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF05202990E24D007B0BDF /* Preview Assets.xcassets */; };
 		FBEF052C2990E4B7007B0BDF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF052A2990E4B7007B0BDF /* MapView.swift */; };
-		FBEF052D2990E4B7007B0BDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF052B2990E4B7007B0BDF /* MapViewController.swift */; };
+		FBEF052D2990E4B7007B0BDF /* MapViewController_back.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF052B2990E4B7007B0BDF /* MapViewController_back.swift */; };
 		FDEA601E85DFA3BC8EF5FD1B /* Pods_GaoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC6EBA933DED7104BBC0F88 /* Pods_GaoDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,15 +29,16 @@
 		9E80EFC3DAF488F039360B13 /* Pods-GaoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDemo.debug.xcconfig"; path = "Target Support Files/Pods-GaoDemo/Pods-GaoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CAFF8005566DD2C5DCD2B040 /* Pods-GaoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDemo.release.xcconfig"; path = "Target Support Files/Pods-GaoDemo/Pods-GaoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ECC6EBA933DED7104BBC0F88 /* Pods_GaoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0F32CA29CD7C4400376C33 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FB0F32CC29CD9F1100376C33 /* allCities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allCities.json; sourceTree = "<group>"; };
+		FB0F32D529D552F000376C33 /* pois.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pois.json; sourceTree = "<group>"; };
 		FB19A45529A6027C0033F969 /* DataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
 		FB19A45729A672C10033F969 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		FB19A45929A677750033F969 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		FB19A45929A677750033F969 /* citiesCenter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citiesCenter.json; sourceTree = "<group>"; };
 		FB19A45B29A7003F0033F969 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		FB19A45F29ACE0710033F969 /* config的副本.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "config的副本.json"; sourceTree = "<group>"; };
 		FB2872CF29ACFEA200461297 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
-		FB2872D929AF50F400461297 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		FB39C24F29B8330400CAABA9 /* ToDoList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDoList.md; sourceTree = "<group>"; };
-		FBE1F22329B0723D00229FCE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FBE1F22329B0723D00229FCE /* DetialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialView.swift; sourceTree = "<group>"; };
 		FBEF05162990E24B007B0BDF /* GaoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaoDemoApp.swift; sourceTree = "<group>"; };
 		FBEF051B2990E24B007B0BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		FBEF05272990E45E007B0BDF /* GaoDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GaoDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FBEF05282990E46E007B0BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FBEF052A2990E4B7007B0BDF /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		FBEF052B2990E4B7007B0BDF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FBEF052B2990E4B7007B0BDF /* MapViewController_back.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController_back.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FB0F32CE29CD9F6300376C33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB19A45729A672C10033F969 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBC536C829CC375F0005165E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF051B2990E24B007B0BDF /* ContentView.swift */,
+				FB2872CF29ACFEA200461297 /* DialogView.swift */,
+				FBE1F22329B0723D00229FCE /* DetialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBC536C929CC37740005165E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB19A45B29A7003F0033F969 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FBEF050D2990E24B007B0BDF = {
 			isa = PBXGroup;
 			children = (
@@ -99,21 +127,19 @@
 		FBEF05182990E24B007B0BDF /* GaoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB0F32CE29CD9F6300376C33 /* Model */,
+				FBC536C929CC37740005165E /* ViewModel */,
+				FBC536C829CC375F0005165E /* View */,
 				FBEF05292990E4AC007B0BDF /* component */,
 				FBEF05282990E46E007B0BDF /* Info.plist */,
 				FBEF05192990E24B007B0BDF /* GaoDemoApp.swift */,
-				FBEF051B2990E24B007B0BDF /* ContentView.swift */,
-				FB2872CF29ACFEA200461297 /* DialogView.swift */,
-				FBE1F22329B0723D00229FCE /* DetailView.swift */,
 				FBEF05272990E45E007B0BDF /* GaoDemo-Bridging-Header.h */,
 				FBEF051D2990E24D007B0BDF /* Assets.xcassets */,
 				FB19A45529A6027C0033F969 /* DataFile.swift */,
-				FB19A45729A672C10033F969 /* Model.swift */,
-				FB19A45929A677750033F969 /* config.json */,
-				FB19A45F29ACE0710033F969 /* config的副本.json */,
-				FB19A45B29A7003F0033F969 /* ViewModel.swift */,
+				FB0F32D529D552F000376C33 /* pois.json */,
+				FB0F32CC29CD9F1100376C33 /* allCities.json */,
+				FB19A45929A677750033F969 /* citiesCenter.json */,
 				FBEF051F2990E24D007B0BDF /* Preview Content */,
-				FB2872D929AF50F400461297 /* TestView.swift */,
 			);
 			path = GaoDemo;
 			sourceTree = "<group>";
@@ -130,7 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				FBEF052A2990E4B7007B0BDF /* MapView.swift */,
-				FBEF052B2990E4B7007B0BDF /* MapViewController.swift */,
+				FBEF052B2990E4B7007B0BDF /* MapViewController_back.swift */,
+				FB0F32CA29CD7C4400376C33 /* MapViewController.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -195,10 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0F32D629D552F000376C33 /* pois.json in Resources */,
 				FBEF05212990E24D007B0BDF /* Preview Assets.xcassets in Resources */,
 				FBEF051E2990E24D007B0BDF /* Assets.xcassets in Resources */,
-				FB19A45A29A677750033F969 /* config.json in Resources */,
-				FB19A46029ACE0710033F969 /* config的副本.json in Resources */,
+				FB19A45A29A677750033F969 /* citiesCenter.json in Resources */,
+				FB0F32CD29CD9F1100376C33 /* allCities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +282,11 @@
 				FBEF051C2990E24B007B0BDF /* ContentView.swift in Sources */,
 				FBEF052C2990E4B7007B0BDF /* MapView.swift in Sources */,
 				FBEF051A2990E24B007B0BDF /* GaoDemoApp.swift in Sources */,
-				FBE1F22429B0723D00229FCE /* DetailView.swift in Sources */,
+				FB0F32CB29CD7C4400376C33 /* MapViewController.swift in Sources */,
+				FBE1F22429B0723D00229FCE /* DetialView.swift in Sources */,
 				FB19A45829A672C10033F969 /* Model.swift in Sources */,
-				FBEF052D2990E4B7007B0BDF /* MapViewController.swift in Sources */,
+				FBEF052D2990E4B7007B0BDF /* MapViewController_back.swift in Sources */,
 				FB19A45629A6027C0033F969 /* DataFile.swift in Sources */,
-				FB2872DA29AF50F400461297 /* TestView.swift in Sources */,
 				FB2872D029ACFEA200461297 /* DialogView.swift in Sources */,
 				FB19A45C29A7003F0033F969 /* ViewModel.swift in Sources */,
 			);
