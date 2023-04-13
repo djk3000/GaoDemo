@@ -187,6 +187,7 @@ class MapViewController: UIViewController, MAMapViewDelegate, AMapSearchDelegate
                     annotationView!.image = UIImage(named: "map")
                 }
                 
+                
                 //设置中心点偏移，使得标注底部中间点成为经纬度对应点
                 annotationView!.centerOffset = CGPoint(x: 0, y: -18);
                 annotationView!.bounds.size = CGSize(width: 30, height: 30)
@@ -194,9 +195,8 @@ class MapViewController: UIViewController, MAMapViewDelegate, AMapSearchDelegate
                     if let label = subview as? UILabel {
                         label.removeFromSuperview()
                     }
-                    
-                    view.backgroundColor = UIColor(.clear)
-                    
+
+                    subview.backgroundColor = UIColor(.clear)
                 }
             } else {
                 //大地图
@@ -286,11 +286,13 @@ class MapViewController: UIViewController, MAMapViewDelegate, AMapSearchDelegate
         //地图停止滑动调用
         if wasUserAction {
             print("停止滑动")
-            if mapView.annotations.count > 80 {
-                setClear()
+            if mapView.zoomLevel > zoomLevel {
+                if mapView.annotations.count > 80 {
+                    setClear()
+                }
+                contentTypes = []
+                selectedSearchContent()
             }
-            contentTypes = []
-            selectedSearchContent()
         }
     }
     
@@ -359,6 +361,8 @@ class MapViewController: UIViewController, MAMapViewDelegate, AMapSearchDelegate
             } else {
                 searchPlace(place: defaultName, currentCoordinate: mapView.centerCoordinate, isZoomOut: true)
             }
+        } else {
+            setCitiesAnno()
         }
     }
     
